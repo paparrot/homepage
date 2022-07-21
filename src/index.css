@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1 {
+    @apply hidden;
+}
+
+h2 {
+    @apply text-2xl text-center;
+}
+
+main {
+    @apply grid place-items-center px-4 min-h-screen;
+}
+
+.wrapper {
+    @apply border-amber-400 bg-white flex-col flex items-center gap-4 py-12 lg:py-36 px-8 border  rounded-xl shadow;
+}
+
+.hero {
+    @apply flex flex-col items-center gap-2;
+}
+
+.hero__image {
+    @apply rounded-full mb-6;
+}
+
+.hero__description {
+    @apply text-center;
+}
+
+.links {
+    @apply w-full;
+}
+
+.links__link {
+    @apply flex gap-2 justify-center;
+}
+
+.links__item {
+    @apply p-4 border rounded shadow my-2 w-full;
+}
+
+.socials__title {
+    @apply text-center;
+}
+
+.socials__list {
+    @apply flex gap-2 py-2;
+}
